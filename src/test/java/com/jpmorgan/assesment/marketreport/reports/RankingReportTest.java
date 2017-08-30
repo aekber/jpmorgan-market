@@ -47,28 +47,28 @@ public class RankingReportTest {
     public void testRankingReport() throws Exception {
         RankingReport rankingReport = new RankingReport(list);
         
-        assertEquals("Ranking Report",
+	        assertEquals("Ranking Report",
         		rankingReport.getGeneratedReport(),
-        		"Entity19 for outgoing : $102716,25\n" +
-        		"Entity14 for outgoing : $98201,25\n" +
-        		"Entity18 for outgoing : $97448,75\n" +
-        		"Entity13 for outgoing : $71111,25\n" +
-        		"Entity11 for outgoing : $60576,25\n" +
-        		"Entity7 for outgoing : $50793,75\n" +
-        		"Entity6 for outgoing : $34238,75\n" +
-        		"Entity2 for outgoing : $16931,25\n" +
-        		"Entity15 for incoming : $10950,75\n" +
-        		"Entity8 for incoming : $6005,25\n" +
-        		"Entity16 for incoming : $3885,75\n" +
-        		"Entity1 for outgoing : $3007,50\n" +
-        		"Entity3 for incoming : $2472,75\n" +
-        		"Entity9 for incoming : $2237,25\n" +
-        		"Entity20 for outgoing : $1164,15\n" +
-        		"Entity4 for incoming : $1059,75\n" +
-        		"Entity17 for incoming : $444,50\n" +
-        		"Entity12 for incoming : $317,50\n" +
-        		"Entity10 for incoming : $266,70\n" +
-        		"Entity5 for incoming : $139,70\n"
+        		"Entity19 for outgoing : $102716.25\n" +
+        		"Entity14 for outgoing : $98201.25\n" +
+        		"Entity18 for outgoing : $97448.75\n" +
+        		"Entity13 for outgoing : $71111.25\n" +
+        		"Entity11 for outgoing : $60576.25\n" +
+        		"Entity7 for outgoing : $50793.75\n" +
+        		"Entity6 for outgoing : $34238.75\n" +
+        		"Entity2 for outgoing : $16931.25\n" +
+        		"Entity15 for incoming : $10950.75\n" +
+        		"Entity8 for incoming : $6005.25\n" +
+        		"Entity16 for incoming : $3885.75\n" +
+        		"Entity1 for outgoing : $3007.50\n" +
+        		"Entity3 for incoming : $2472.75\n" +
+        		"Entity9 for incoming : $2237.25\n" +
+        		"Entity20 for outgoing : $1164.15\n" +
+        		"Entity4 for incoming : $1059.75\n" +
+        		"Entity17 for incoming : $444.50\n" +
+        		"Entity12 for incoming : $317.50\n" +
+        		"Entity10 for incoming : $266.70\n" +
+        		"Entity5 for incoming : $139.70\n"
         );
     }
 
